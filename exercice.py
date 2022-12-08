@@ -16,9 +16,14 @@ def ellipsoid(volume, a, b, c, density):
 
     return (volume, mass) 
 
-def tree(): #draw a tree with turtle  
+#draw a tree with turtle  
+def tree():
 
+    screen = t.Screen()
+    screen.bgcolor("white")
    
+   
+
 
 
 if __name__ == '__main__':
